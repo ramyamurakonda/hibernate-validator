@@ -268,6 +268,8 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+    
+  
 
     <build>
         <extensions>
@@ -755,14 +757,14 @@
 
     <distributionManagement>
         <repository>
-            <id>jboss-releases-repository</id>
-            <name>JBoss Releases Repository</name>
-            <url>https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/</url>
+            <id>deployment</id>
+            <name>Releases Repository</name>
+            <url>http://192.168.1.24:8081/nexus/content/repositories/releases</url>
         </repository>
         <snapshotRepository>
-            <id>jboss-snapshots-repository</id>
-            <name>JBoss Snapshots Repository</name>
-            <url>https://repository.jboss.org/nexus/content/repositories/snapshots/</url>
+            <id>deplyoment</id>
+            <name>Snapshots Repository</name>
+            <url>http://192.168.1.24:8081/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
